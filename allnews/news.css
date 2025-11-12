@@ -1900,3 +1900,12 @@ body {
         font-size: 18px;
     }
 }
+
+/* Hover effects for news tiles */
+.main-news:hover, .small-news:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    z-index: 10;
+    position: relative;
+}

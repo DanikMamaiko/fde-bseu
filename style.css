@@ -1482,15 +1482,12 @@ html, body {
     }
 }
 
-@media (min-width: 1220px) {
-    .desktop-logo {
-        top: 76px !important;
-        left: 0px !important;
-        padding: 0 !important;
-        margin: 0 !important;
-        width: 127px !important;
-        height: 53px !important;
-        padding-left: 50px !important;
-    }
+/* Hover effects for news tiles */
+.main-news:hover, .small-news:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    z-index: 10;
+    position: relative;
 }
 
