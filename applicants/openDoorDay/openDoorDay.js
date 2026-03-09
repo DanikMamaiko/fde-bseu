@@ -45,8 +45,8 @@ const translations = {
         'contacts.how_to_get': 'Как добраться',
 
         'page.title': 'График дней открытых дверей',
-        'page.description': '22 марта 2025 года Белорусский государственный экономический университет приглашает выпускников и учащихся учреждений общего среднего и среднего специального образования на Единый день открытых дверей с участием организаций заказчиков кадров.',
-        'addition.text': 'Для желающих принять участие предусмотрена предварительная регистрация.',
+        'page.description': '14 марта 2026 года Белорусский государственный экономический университет приглашает выпускников и учащихся учреждений общего среднего образования на День открытых дверей Факультета цифровой экономики. Подробную информацию можно узнать на официальном сайте БГЭУ.',
+        'addition.text': 'Для желающих принять участие предусмотрена предварительная регистрация (по ссылке <a href="https://docs.google.com/forms/d/e/1FAIpQLSfm1cFBlSFRRkHJM7W51vkm1dPtCyh4PlhcSW6yJNsxUrh3sw/viewform" target="_blank" rel="noopener noreferrer">https://docs.google.com/forms/d/e/1FAIpQLSfm1cFBlSFRRkHJM7W51vkm1dPtCyh4PlhcSW6yJNsxUrh3sw/viewform</a>).',
 
         'form.uniqueOpportunity.title': 'День открытых дверей в БГЭУ – это уникальная возможность',
         'form.uniqueOpportunity.point1': '1. Ознакомиться со специальностями и профилизациями БГЭУ.',
@@ -118,7 +118,7 @@ const translations = {
 
         'page.title': 'Графік дзён адкрытых дзвярэй',
         'page.description': '22 сакавіка 2025 года Беларускі дзяржаўны эканамічны ўніверсітэт запрашае выпускнікоў і навучэнцаў устаноў агульнай сярэдняй і сярэдняй спецыяльнай адукацыі на Адзіны дзень адкрытых дзвярэй з удзелам арганізацый-заказчыкаў кадраў.',
-        'addition.text': 'Для жадаючых прыняць удзел прадугледжана папярэдняя рэгістрацыя.',
+        'addition.text': 'Для жадаючых прыняць удзел прадугледжана папярэдняя рэгістрацыя (па спасылцы <a href="https://docs.google.com/forms/d/e/1FAIpQLSfm1cFBlSFRRkHJM7W51vkm1dPtCyh4PlhcSW6yJNsxUrh3sw/viewform" target="_blank" rel="noopener noreferrer">https://docs.google.com/forms/d/e/1FAIpQLSfm1cFBlSFRRkHJM7W51vkm1dPtCyh4PlhcSW6yJNsxUrh3sw/viewform</a>).',
 
         'form.uniqueOpportunity.title': 'Дзень адкрытых дзвярэй у БДЭУ – гэта унікальная магчымасць',
         'form.uniqueOpportunity.point1': '1. Азнаёміцца са спецыяльнасцямі і профілізацыямі БДЭУ.',
@@ -189,7 +189,7 @@ const translations = {
 
         'page.title': 'Open Doors Days Schedule',
         'page.description': 'On March 22, 2025, the Belarusian State Economic University invites graduates and students of general secondary and secondary specialized education institutions to the Unified Open Doors Day with participation of personnel customer organizations.',
-        'addition.text': 'Pre-registration is provided for those wishing to participate.',
+        'addition.text': 'Pre-registration is provided for those wishing to participate (via <a href="https://docs.google.com/forms/d/e/1FAIpQLSfm1cFBlSFRRkHJM7W51vkm1dPtCyh4PlhcSW6yJNsxUrh3sw/viewform" target="_blank" rel="noopener noreferrer">link</a>).',
 
         'form.uniqueOpportunity.title': 'Open Doors Day at BSEU is a unique opportunity to',
         'form.uniqueOpportunity.point1': '1. Get acquainted with BSEU specialties and profiles.',
@@ -260,7 +260,7 @@ const translations = {
 
         'page.title': '开放日时间表',
         'page.description': '2025年3月22日，白俄罗斯国立经济大学邀请普通中等和中等专业教育机构的毕业生和学生参加统一开放日，届时将有用人单位参与。',
-        'addition.text': '为有意参加者提供预先注册。',
+        'addition.text': '为有意参加者提供预先注册（通过 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfm1cFBlSFRRkHJM7W51vkm1dPtCyh4PlhcSW6yJNsxUrh3sw/viewform" target="_blank" rel="noopener noreferrer">链接</a>）。',
 
         'form.uniqueOpportunity.title': '白俄罗斯国立经济大学开放日是一个独特的机会',
         'form.uniqueOpportunity.point1': '1. 了解白俄罗斯国立经济大学的专业和方向。',
@@ -355,7 +355,7 @@ function translatePage(language) {
     elements.forEach(element => {
         const key = element.getAttribute('data-i18n');
         if (translations[language] && translations[language][key]) {
-            element.textContent = translations[language][key];
+            element.innerHTML = translations[language][key];
         }
     });
     

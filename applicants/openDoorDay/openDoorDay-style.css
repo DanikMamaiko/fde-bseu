@@ -354,25 +354,25 @@ body {
 }
 
 .page-des p {
-    color: #2E3146 !important; 
-    font-family: Ubuntu !important; 
-    font-size: 22px !important; 
-    font-style: normal !important; 
-    font-weight: 400 !important; 
+    color: #2E3146 !important;
+    font-family: Ubuntu !important;
+    font-size: 22px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
     line-height: 1.4 !important;
-    letter-spacing: -0.66px !important; 
-    text-align: left !important; 
+    letter-spacing: -0.66px !important;
+    text-align: justify !important;
 }
 
 .addition p {
-    color: #2E3146 !important; 
-    font-family: Ubuntu !important; 
-    font-size: 22px !important; 
-    font-style: normal !important; 
-    font-weight: 400 !important; 
+    color: #2E3146 !important;
+    font-family: Ubuntu !important;
+    font-size: 22px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
     line-height: 1.4 !important;
-    letter-spacing: -0.66px !important; 
-    text-align: left !important; 
+    letter-spacing: -0.66px !important;
+    text-align: justify !important;
 }
 
 .form-desc p {
@@ -855,25 +855,25 @@ button[type="submit"]::after {
     }
 
     .page-des p {
-        color: #2E3146 !important; 
-        font-family: Ubuntu !important; 
-        font-size: 18px !important; 
-        font-style: normal !important; 
-        font-weight: 400 !important; 
+        color: #2E3146 !important;
+        font-family: Ubuntu !important;
+        font-size: 18px !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
         line-height: 1.4 !important;
-        letter-spacing: -0.66px !important; 
-        text-align: left !important; 
+        letter-spacing: -0.66px !important;
+        text-align: justify !important;
     }
-    
+
     .addition p {
-        color: #2E3146 !important; 
-        font-family: Ubuntu !important; 
-        font-size: 18px !important; 
-        font-style: normal !important; 
-        font-weight: 400 !important; 
+        color: #2E3146 !important;
+        font-family: Ubuntu !important;
+        font-size: 18px !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
         line-height: 1.4 !important;
-        letter-spacing: -0.66px !important; 
-        text-align: left !important; 
+        letter-spacing: -0.66px !important;
+        text-align: justify !important;
     }
     
     .form-desc p {
