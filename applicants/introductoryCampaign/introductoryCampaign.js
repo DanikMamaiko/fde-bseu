@@ -64,13 +64,6 @@ const translations = {
         'speciality1.exams.ex1': 'математика (ЦТ или ЦЭ)',
         'speciality1.exams.ex2': 'иностранный язык  (ЦТ или ЦЭ)',
 
-        'speciality2.title': 'Прикладная математика. Экономическая кибернетика',
-        'speciality2.code': '(6-05-0533-09)',
-        'speciality2.graduate': 'Прикладной математик. Программист',
-        'speciality2.exams.title': 'Вступительные испытания:',
-        'speciality2.exams.ex1': 'математика (ЦТ или ЦЭ)',
-        'speciality2.exams.ex2': 'физика (ЦТ или ЦЭ)',
-
         'speciality3.title': 'Статистика',
         'speciality3.code': '(6-05-0541-01)',
         'speciality3.graduate': 'Статистик-аналитик',
@@ -164,13 +157,6 @@ const translations = {
         'speciality1.exams.ex1': 'матэматыка (ЦТ або ЦЭ)',
         'speciality1.exams.ex2': 'замежная мова (ЦТ або ЦЭ)',
 
-        'speciality2.title': 'Прыкладная матэматыка. Эканамічная кібернетыка',
-        'speciality2.code': '(6-05-0533-09)',
-        'speciality2.graduate': 'Прыкладны матэматык. Праграміст',
-        'speciality2.exams.title': 'Уступныя выпрабаванні:',
-        'speciality2.exams.ex1': 'матэматыка (ЦТ або ЦЭ)',
-        'speciality2.exams.ex2': 'фізіка (ЦТ або ЦЭ)',
-
         'speciality3.title': 'Статыстыка',
         'speciality3.code': '(6-05-0541-01)',
         'speciality3.graduate': 'Статыст-аналізатар',
@@ -262,13 +248,6 @@ const translations = {
         'speciality1.exams.title': 'Entrance Exams:',
         'speciality1.exams.ex1': 'Mathematics (CT or CE)',
         'speciality1.exams.ex2': 'Foreign Language (CT or CE)',
-
-        'speciality2.title': 'Applied Mathematics. Economic Cybernetics',
-        'speciality2.code': '(6-05-0533-09)',
-        'speciality2.graduate': 'Applied Mathematician. Programmer',
-        'speciality2.exams.title': 'Entrance Exams:',
-        'speciality2.exams.ex1': 'Mathematics (CT or CE)',
-        'speciality2.exams.ex2': 'Physics (CT or CE)',
 
         'speciality3.title': 'Statistics',
         'speciality3.code': '(6-05-0541-01)',
@@ -362,12 +341,6 @@ const translations = {
         'speciality1.exams.ex1': '数学（CT或CE）',
         'speciality1.exams.ex2': '外语（CT或CE）',
 
-        'speciality2.title': '应用数学。经济控制论',
-        'speciality2.code': '(6-05-0533-09)',
-        'speciality2.graduate': '应用数学家。程序员',
-        'speciality2.exams.title': '入学考试：',
-        'speciality2.exams.ex1': '数学（CT或CE）',
-        'speciality2.exams.ex2': '物理（CT或CE）',
 
         'speciality3.title': '统计学',
         'speciality3.code': '(6-05-0541-01)',
