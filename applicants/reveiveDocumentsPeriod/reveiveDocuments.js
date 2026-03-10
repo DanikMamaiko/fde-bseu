@@ -58,6 +58,8 @@ const translations = {
         'admission.text4.2': 'На заочную форму получения общего высшего образования.',
         'admission.text4.3': 'На дистанционную форму обучения.',
         'admission.text4.4': 'Для получения второго и последующего высшего образования.',
+        'admission.exam_targeted': 'Проведение вступительных испытаний 4-10 июля',
+        'admission.exam_budget': 'Проведение вступительных испытаний 18-25 июля',
 
         // Футер
         'footer.questions': 'Если у Вас возникли вопросы, обращайтесь по адресу',
@@ -123,6 +125,8 @@ const translations = {
         'admission.text4.2': 'На завочную форму атрымання агульнай вышэйшай адукацыі.',
         'admission.text4.3': 'На дыстанцыйную форму навучання.',
         'admission.text4.4': 'Для атрымання другога і наступных вышэйшых адукацый.',
+        'admission.exam_targeted': 'Правядзенне ўступных выпрабаванняў 4-10 ліпеня',
+        'admission.exam_budget': 'Правядзенне ўступных выпрабаванняў 18-25 ліпеня',
 
         'footer.questions': 'Калі ў вас узніклі пытанні, звяртайцеся па адрасе',
         'footer.suggestions': 'Калі ёсць прапановы, можаце напісаць нам',
@@ -187,7 +191,9 @@ const translations = {
         'admission.text4.2': 'For part-time general higher education programs.',
         'admission.text4.3': 'For distance learning programs.',
         'admission.text4.4': 'For second and subsequent higher education degrees.',
-        
+        'admission.exam_targeted': 'Entrance exams July 4-10',
+        'admission.exam_budget': 'Entrance exams July 18-25',
+
         'footer.questions': 'If you have any questions, please contact',
         'footer.suggestions': 'If you have suggestions, you can write to us',
         'footer.copyright': '© 2019-2025 BSEU FDE',
@@ -251,6 +257,8 @@ const translations = {
         'admission.text4.2': '非全日制普通高等教育课程',
         'admission.text4.3': '远程教育课程',
         'admission.text4.4': '第二及后续高等教育学位',
+        'admission.exam_targeted': '入学考试 7月4日至10日',
+        'admission.exam_budget': '入学考试 7月18日至25日',
 
         'footer.questions': '如果您有任何问题，请联系',
         'footer.suggestions': '如果您有建议，可以写信给我们',
